@@ -1,0 +1,5 @@
+--- 
+deployments:
+  - destination: /public_html
+    repo: https://github.com/yourusername/your-repo.git
+    branch: main

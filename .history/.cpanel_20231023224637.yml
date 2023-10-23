@@ -1,0 +1,26 @@
+deployments:
+  - destination: /public_html
+    repo: https://github.com/yourusername/your-repo.git
+    branch: main
+This example specifies a deployment to the /public_html directory, pulling the code from a GitHub repository.
+
+Customize the configuration:
+Customize the configuration based on your needs. You can specify additional settings such as file exclusions, environment variables, or pre/post-deployment commands. Refer to the cPanel documentation for more advanced options: cPanel YAML Guide.
+
+Save the file:
+Save the .cpanel.yml file in the root directory of your project.
+
+Test the deployment:
+If you're using cPanel's Deployment feature, go to the cPanel interface, find the "Git™ Version Control" or a similar section, and trigger the deployment. This will apply the configurations specified in your .cpanel.yml file.
+
+Remember to replace placeholders like yourusername and your-repo with your actual GitHub username and repository.
+
+If you have specific requirements or if you encounter any issues, let me know, and I can help you further!
+
+
+
+
+Is this conversation helpful so far?
+
+
+
