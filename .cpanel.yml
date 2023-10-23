@@ -1,0 +1,5 @@
+--- 
+deployments:
+  - destination: /public_html
+    repo: https://github.com/rishikarajeev/portfolio_rishika.git
+    branch: main
